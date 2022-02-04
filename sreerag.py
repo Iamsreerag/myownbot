@@ -23,7 +23,7 @@ SREERAG = [
 async def start_message(bot, message):
     await message.reply_photo(
         photo=random.choice(SREERAG), 
-        caption=""<b>Hy {}"",
+        caption=""hello"",
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("[🅜🅒]New Movies", url="https://t.me/joinchat/slPWoPDfoJc3NTVl"), 
             InlineKeyboardButton("[🅜🅒]GROUP", url="https://t.me/malayayalies")
