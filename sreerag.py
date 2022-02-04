@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import random
 sreerag=Client(
     "myownbot", 
-    bot_token="2078131756:AAHKdbkfLnMITvDuT4ntxXxYdi9kJUkCDAU", 
+    bot_token="5158569357:AAEvZRy0t9h6OotO2n6o-ksZV6CeNEp9Ujo", 
     api_id="7099124", 
     api_hash="a158cc12519db541370c91c5561f782f" 
 ) 
