@@ -22,13 +22,13 @@ SREERAG = [
 async def start_message(bot, message):
     await message.reply_photo(
         photo=random.choice(SREERAG), 
-        caption="hello sugam annoo", 
+        caption="This Is Our Channel Please Join Here!<a href='https://t.me/minnal_murali77/993'>How To Download Movies Malayalam Group</a> ", 
         reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton("[🔰🅜🅒]New Movies🔰", url="https://t.me/joinchat/slPWoPDfoJc3NTVl"), 
-            InlineKeyboardButton("[⭕🅜🅒]GROUP⭕", url="https://t.me/malayayalies")
+            InlineKeyboardButton("[🅜🅒]New Movies", url="https://t.me/joinchat/slPWoPDfoJc3NTVl"), 
+            InlineKeyboardButton("[🅜🅒]GROUP", url="https://t.me/malayayalies")
             ],[
-            InlineKeyboardButton("⚜️[🅜🅒]𝐒𝐞𝐫𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝⚜️", url="https://t.me/mc_serie"), 
-            InlineKeyboardButton("[✳️🅜🅒]Movie Collection✳️", url="https://t.me/minnal_murali77")
+            InlineKeyboardButton("[🅜🅒]𝐒𝐞𝐫𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝", url="https://t.me/mc_serie"), 
+            InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘 𝗖𝗢𝗟𝗟𝗘𝗖𝗧𝗜𝗢𝗡", url="https://t.me/minnal_murali77")
             ],[
             InlineKeyboardButton("[🅜🅒]𝗡𝗲𝘁𝗳𝗹𝗶𝘅", url="https://t.me/netflix_originals_pdisk"), 
             InlineKeyboardButton("[🅜🅒]𝗡𝗲𝘁𝗳𝗹𝗶𝘅 𝟮", url="https://t.me/netflixorgi")
