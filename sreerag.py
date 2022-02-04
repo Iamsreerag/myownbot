@@ -13,7 +13,7 @@ async def start_message(bot, message):
     await message.reply_text(
         text="hello sugam annoo", 
         reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton("button name", url="https://t.me/joinchat/slPWoPDfoJc3NTVl") 
+            InlineKeyboardButton("button name", url="https://t.me/joinchat/slPWoPDfoJc3NTVl"), 
             InlineKeyboardButton("button2 name", url="https://t.me/joinchat/slPWoPDfoJc3NTVl")
             ]]
             ) 
