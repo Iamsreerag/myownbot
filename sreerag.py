@@ -15,6 +15,9 @@ async def start_message(bot, message):
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("button name", url="https://t.me/joinchat/slPWoPDfoJc3NTVl"), 
             InlineKeyboardButton("button2 name", url="https://t.me/joinchat/slPWoPDfoJc3NTVl")
+            ],[
+            InlineKeyboardButton("button3 name", url="https://t.me/joinchat/slPWoPDfoJc3NTVl"), 
+            InlineKeyboardButton("button4 name", url="https://t.me/joinchat/slPWoPDfoJc3NTVl")
             ]]
             ) 
         ) 
