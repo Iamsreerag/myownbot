@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import random
 sreerag=Client(
     "myownbot", 
-    bot_token="5237284811:AAEgN7gPmfPFR4vNsPhAWT6jpZ7DX4-kJ_I", 
+    bot_token="5158569357:AAEvZRy0t9h6OotO2n6o-ksZV6CeNEp9Ujo", 
     api_id="7099124", 
     api_hash="a158cc12519db541370c91c5561f782f" 
 ) 
@@ -23,7 +23,11 @@ SREERAG = [
 async def start_message(bot, message):
     await message.reply_photo(
         photo=random.choice(SREERAG), 
-        caption="hy", 
+        caption=""" Hi{}
+⭕Creator:</b> <a href='https://t.me/Mccontact_bot'>👤This Person</a>
+⭕Channel:</b> <a href='https://t.me/joinchat/slPWoPDfoJc3NTVl'>Click Here</a>
+How To Download Movies? :</b> <a href='https://t.me/minnal_murali77/993'>Click Me</a>
+"""
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("[🅜🅒]New Movies", url="https://t.me/joinchat/slPWoPDfoJc3NTVl"), 
             InlineKeyboardButton("[🅜🅒]GROUP", url="https://t.me/malayayalies")
