@@ -23,10 +23,12 @@ SREERAG = [
 async def start_message(bot, message):
     await message.reply_photo(
         photo=random.choice(SREERAG), 
-        caption=""" Hi{}
+        caption="""<b>Hy {},
 ⭕Creator:</b> <a href='https://t.me/Mccontact_bot'>👤This Person</a>
+
 ⭕Channel:</b> <a href='https://t.me/joinchat/slPWoPDfoJc3NTVl'>Click Here</a>
-How To Download Movies? :</b> <a href='https://t.me/minnal_murali77/993'>Click Me</a>
+
+⭕How To Download Movies? :</b> <a href='https://t.me/minnal_murali77/993'>Click Me</a>
 """, 
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("[🅜🅒]New Movies", url="https://t.me/joinchat/slPWoPDfoJc3NTVl"), 
