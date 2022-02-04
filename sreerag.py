@@ -21,9 +21,9 @@ SREERAG = [
 
 @sreerag.on_message(filters.command("start")) 
 async def start_message(bot, message):
-    await message.reply_text(
+    await message.reply_photo(
         photo=random.choice(SREERAG)
-        text=" Enter ur text here", 
+        caption="Enter ur text here", 
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("[🅜🅒]New Movies", url="https://t.me/joinchat/slPWoPDfoJc3NTVl"), 
             InlineKeyboardButton("[🅜🅒]GROUP", url="https://t.me/malayayalies")
