@@ -1,5 +1,5 @@
 from pyrogram import Client,filters
-
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 sreerag=Client(
     "myownbot", 
@@ -10,7 +10,13 @@ sreerag=Client(
 
 @sreerag.on_message(filters.command("start")) 
 async def start_message(bot, message):
-    await message.reply_text("hello") 
+    await message.reply_text(
+        text="hello sugam annoo", 
+        reply_markup=InlineKeyboardMarkup( [[
+            InlineKeyboardButton("button name", url="https://t.me/joinchat/slPWoPDfoJc3NTVl") 
+            ]]
+            ) 
+        ) 
 
 sreerag.run() 
 
