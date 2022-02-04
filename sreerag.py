@@ -14,8 +14,7 @@ SREERAG = [
  "https://telegra.ph/file/0725237f37f86d3481810.jpg", 
  "https://telegra.ph/file/7005ecc0ee9eb926a7195.jpg", 
  "https://telegra.ph/file/5a65ebe278430efc384ec.jpg", 
- "https://telegra.ph/file/96bd3f6e96e7b1ce5422b.jpg", 
- "https://telegra.ph/file/8286e4d5d13bdf5b35cf0.mp4"
+ "https://telegra.ph/file/96bd3f6e96e7b1ce5422b.jpg",
 ]
 
 
@@ -24,7 +23,10 @@ SREERAG = [
 async def start_message(bot, message):
     await message.reply_photo(
         photo=random.choice(SREERAG), 
-        caption="This Is Our Channel Please Join Here !<a href='https://t.me/minnal_murali77/993'>How To Download Movies Malayalam Group</a> ", 
+        caption="""<b>Hy {},
+Creator : !<a href='https://t.me/Mccontact_bot'>👤This Person</a>,
+Channel : <a href='https://t.me/joinchat/slPWoPDfoJc3NTVl'>🦋Click Here🦋</a>", 
+How To Download? : <a href='https://t.me/Mccontact_bot'>Click Me</a> """
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton("[🅜🅒]New Movies", url="https://t.me/joinchat/slPWoPDfoJc3NTVl"), 
             InlineKeyboardButton("[🅜🅒]GROUP", url="https://t.me/malayayalies")
