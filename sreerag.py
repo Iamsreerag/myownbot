@@ -23,7 +23,7 @@ SREERAG = [
 async def start_message(bot, message):
     await message.reply_photo(
         photo=random.choice(SREERAG), 
-        caption="""Hello {message.from_user.mention}🤠
+        caption=f"""Hello {message.from_user.mention}🤠
 <b>മലയാളം സിനിമാ ചാനൽ ലിസ്റ്റ് ബോട്ടിലേക്ക് സ്വാഗതം,
 
 ⭕Creator:</b> <a href='https://t.me/Mccontact_bot'>👤This Person</a>
