@@ -13,7 +13,9 @@ SREERAG = [
  "https://telegra.ph/file/cea847dd1a0aa10d2bc30.jpg", 
  "https://telegra.ph/file/0725237f37f86d3481810.jpg", 
  "https://telegra.ph/file/7005ecc0ee9eb926a7195.jpg", 
- "https://telegra.ph/file/5a65ebe278430efc384ec.jpg"
+ "https://telegra.ph/file/5a65ebe278430efc384ec.jpg", 
+ "https://telegra.ph/file/96bd3f6e96e7b1ce5422b.jpg", 
+ "https://telegra.ph/file/8286e4d5d13bdf5b35cf0.mp4"
 ]
 
 
@@ -33,7 +35,8 @@ async def start_message(bot, message):
             InlineKeyboardButton("[🅜🅒]𝗡𝗲𝘁𝗳𝗹𝗶𝘅", url="https://t.me/netflix_originals_pdisk"), 
             InlineKeyboardButton("[🅜🅒]𝗡𝗲𝘁𝗳𝗹𝗶𝘅 𝟮", url="https://t.me/netflixorgi")
             ],[
-            InlineKeyboardButton("[🅜🅒]𝗡𝗲𝘄 𝗢𝘁𝘁 𝗠𝗼𝘃𝗶𝗲𝘀", url="https://t.me/+3bakJjQahSw5MDdl")
+            InlineKeyboardButton("[🅜🅒]𝗡𝗲𝘄 𝗢𝘁𝘁 𝗠𝗼𝘃𝗶𝗲𝘀", url="https://t.me/+3bakJjQahSw5MDdl"), 
+            InlineKeyboardButton("[🅜🅒]𝗠𝗢𝗩𝗜𝗘𝗦 𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url="https://t.me/malayalam2")
             ]]
             ) 
         ) 
