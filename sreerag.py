@@ -39,9 +39,9 @@ async def start_message(bot, message):
             InlineKeyboardButton("[🅜🅒]GROUP", url="https://t.me/malayayalies")
             ],[
             InlineKeyboardButton("[🅜🅒]𝐒𝐞𝐫𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝", url="https://t.me/mc_serie"), 
-            InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘 𝗖𝗢𝗟𝗟𝗘𝗖𝗧𝗜𝗢𝗡", url="https://t.me/minnal_murali77")
+            InlineKeyboardButton("[🅜🅒]𝐒𝐞𝐫𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/mc_series_c")
             ],[
-            InlineKeyboardButton("[🅜🅒]𝗡𝗲𝘁𝗳𝗹𝗶𝘅", url="https://t.me/netflix_originals_pdisk"), 
+            InlineKeyboardButton("𝗠𝗼𝘃𝗶𝗲 𝗖𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻", url="https://t.me/minnal_murali77"), 
             InlineKeyboardButton("[🅜🅒]𝗡𝗲𝘁𝗳𝗹𝗶𝘅 𝟮", url="https://t.me/netflixorgi")
             ],[
             InlineKeyboardButton("[🅜🅒]𝗡𝗲𝘄 𝗢𝘁𝘁 𝗠𝗼𝘃𝗶𝗲𝘀", url="https://t.me/+3bakJjQahSw5MDdl"), 
