@@ -46,6 +46,8 @@ async def start_message(bot, message):
             ],[
             InlineKeyboardButton("[🅜🅒]𝗡𝗲𝘄 𝗢𝘁𝘁 𝗠𝗼𝘃𝗶𝗲𝘀", url="https://t.me/+3bakJjQahSw5MDdl"), 
             InlineKeyboardButton("[🅜🅒]𝗠𝗢𝗩𝗜𝗘𝗦 𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url="https://t.me/malayalam2")
+            ],[
+            InlineKeyboardButton("🎖ᴄʟɪᴄᴋ ʜᴇʀᴇ & sʜᴀʀᴇ ᴄʜᴀɴɴᴇʟ🎖", url="http://t.me/share/url?url=Hai%20Bro%2FSis%20%E2%9D%A4%EF%B8%8F%2C%20Today%20I%20Just%20Found%20Out%20A%20Movies%20And%20Series%20Group%20Which%20Uploads%20Requested%20Movies%20and%20Series%20In%20Second%27s%F0%9F%A5%B0.J%CF%83%CE%B9%D0%B8%20N%CF%83%CF%89%20%20%3A%20%40malayayalies%20%F0%9F%91%8C%F0%9F%94%A5") 
             ]]
             ) 
         ) 
