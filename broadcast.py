@@ -1,7 +1,7 @@
 from userbase import present_in_userbase, add_to_userbase, get_users # userbase.py is Attached below
 import time
 
-@bughunter0.on_message(filters.private & filters.command('broadcast') & filters.user(OWNER) & filters.reply)
+@sreerag.on_message(filters.private & filters.command('broadcast') & filters.user(OWNER) & filters.reply)
 async def broadcast(client: bughunter0, message: Message):
        broadcast_msg = message.reply_to_message
        txt = await message.reply(text = 'Staring....')        
