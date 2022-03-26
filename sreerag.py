@@ -23,7 +23,9 @@ SREERAG = [
 
 @sreerag.on_message(filters.command("start")) 
 async def start_message(bot, message):
-    await message.reply_photo(
+    if not await present_in_userbase(update.from_user.id):
+    	await add_to_userbase(update.from_user.id)
+    	await message.reply_photo(
         photo=random.choice(SREERAG), 
         caption=f"""Hello {message.from_user.mention}🤠
 <b>മലയാളം സിനിമാ ചാനൽ ലിസ്റ്റ് ബോട്ടിലേക്ക് സ്വാഗതം,
@@ -55,4 +57,3 @@ async def start_message(bot, message):
         ) 
 
 sreerag.run() 
-
