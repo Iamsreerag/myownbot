@@ -23,7 +23,7 @@ SREERAG = [
 
 
 @sreerag.on_message(filters.command("start")) 
-async def start_message(bot, message):
+async def start_message(bot, update, message):
     if not await present_in_userbase(update.from_user.id):
     	await add_to_userbase(update.from_user.id)
     	await message.reply_photo(
