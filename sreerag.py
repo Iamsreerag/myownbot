@@ -1,7 +1,6 @@
 from pyrogram import Client,filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import random
-import pymongo
 from userbase import present_in_userbase, add_to_userbase
 sreerag=Client(
     "myownbot", 
