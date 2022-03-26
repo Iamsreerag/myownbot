@@ -23,9 +23,9 @@ SREERAG = [
 
 
 @sreerag.on_message(filters.command("start")) 
-async def start_message(bot, update, message):
-    if not await present_in_userbase(update.from_user.id):
-    	await add_to_userbase(update.from_user.id)
+async def start_message(bot, message):
+    if not await present_in_userbase(message.from_user.id):
+    	await add_to_userbase(message.from_user.id)
     	await message.reply_photo(
         photo=random.choice(SREERAG), 
         caption=f"""Hello {message.from_user.mention}🤠
